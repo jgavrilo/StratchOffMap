@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0; /* Optional: background color */
+}
+
+.world-map-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 20px; /* Padding around the container */
+    box-sizing: border-box; /* Ensure padding is included in the container's total width/height */
+}
+
+.world-map {
+    max-width: 90%; /* Adjust as needed */
+    max-height: 90%; /* Adjust as needed */
+    width: auto;
+    height: auto;
+    aspect-ratio: 2000 / 1001;
+    border: 5px solid #000; /* Border around the SVG */
+    padding: 10px; /* Padding inside the SVG */
+    box-sizing: border-box; /* Ensure padding is included in the SVG's total width/height */
+}
+
+
+svg path {
+    fill: green;
+    stroke: red;
+    stroke-width: 2;
+}
+
+svg path:hover {
+    fill: yellow;
+    transition: 0.6s;
+    cursor: pointer;
+}
