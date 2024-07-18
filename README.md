@@ -14,9 +14,13 @@ This project is an interactive world map that allows users to click on different
 ## File Structure
 
 .
+
 ├── index.html
+
 ├── styles.css
+
 ├── includedCountries.JSON
+
 └── mapInteractions.js
 
 ## Getting Started
